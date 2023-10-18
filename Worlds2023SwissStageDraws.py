@@ -1,4 +1,5 @@
-from itertools import pẻmutation
+"As League of Legends Worlds 2023 is happening, and Swiss stage matches are drawn, I wanted to see all the possible matches that could happen"
+from itertools import permutation
 
 class Team:
   def __innit__(self, name, region, pool):
