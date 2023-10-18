@@ -1,3 +1,7 @@
+"This is a simple tic tac toe game I did for fun during my free time. I used it as an OPW to apply to Fulbright and got accepted"
+
+
+
 import numpy as np
 
 class TicTacToe:
