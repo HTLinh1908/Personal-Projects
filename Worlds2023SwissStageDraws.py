@@ -11,7 +11,9 @@ class Team:
     return self.name
 
 
-teams = [Team( "GenG", "LCK", 1), Team("NRG", "LCS", 1), Team("JDG","LPL", 1), Team("G2", "LEC", 1), Team("GAM", "VCS", 4), Team("BDS", "LEC", 4), Team("DK", "LCK", 4), Team("WBG", "LPL", 4)]
+teams = [Team( "GenG", "LCK", 1), Team("NRG", "LCS", 1), Team("JDG","LPL", 1), Team("G2", "LEC", 1), Team("GAM", "VCS", 4), Team("BDS", "LEC", 4), Team("DK", "LCK", 4), Team("WBG", "LPL", 4), Team("BLG", "LPL", 2), Team("KT", "LCK", 3), Team("LNG", "LPL", 3), Team("FNC", "LEC", 2), Team("C9", "LCS", 2), Team("MAD", "LEC", 3), Team("T1", "LCK", 2), Team("TL", "LCS", 3)]
+
+
 
 pool1 = [team for team in teams if team.pool == 1]
 pool4 = [team for team in teams if team.pool == 4]
