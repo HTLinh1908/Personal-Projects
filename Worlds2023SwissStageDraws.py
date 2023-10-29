@@ -16,6 +16,8 @@ teams = [Team( "GenG", "LCK", 1), Team("NRG", "LCS", 1), Team("JDG","LPL", 1), T
 
 
 pool1 = [team for team in teams if team.pool == 1]
+pool2 = [team for team in teams if team.pool == 2]
+pool3 = [team for team in teams if team.pool == 3]
 pool4 = [team for team in teams if team.pool == 4]
 
 all_matches = []
